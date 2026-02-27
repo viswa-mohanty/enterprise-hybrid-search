@@ -1,0 +1,142 @@
+[
+  {
+    "id": "POL-001",
+    "title": "AI Governance Framework",
+    "region": "Global",
+    "owner": "Chief Data & AI Officer",
+    "content": "This policy establishes enterprise-wide AI governance. All AI and machine learning systems must undergo risk assessment, comply with data residency and GDPR requirements, and maintain model explainability documentation. Vendors providing AI services are subject to third-party risk review. Cloud-deployed models require security and compliance sign-off."
+  },
+  {
+    "id": "POL-002",
+    "title": "Data Residency and Location Policy",
+    "region": "EMEA",
+    "owner": "Data Protection Officer",
+    "content": "Personal data and regulated content must remain within approved jurisdictions per data residency obligations. Cloud providers and vendors must certify data location and support GDPR and local compliance. Cross-border transfers require legal and compliance approval. Data residency controls apply to AI training data and model outputs."
+  },
+  {
+    "id": "POL-003",
+    "title": "Cloud Security and Compliance Standard",
+    "region": "Global",
+    "owner": "CISO",
+    "content": "All cloud workloads must meet our cloud security baseline: encryption at rest and in transit, identity and access controls, and audit logging. Vendor risk assessments are required for cloud service providers. Compliance with GDPR, SOC 2, and industry frameworks is mandatory. AI and data processing in the cloud follow the same controls."
+  },
+  {
+    "id": "POL-004",
+    "title": "Third-Party and Vendor Risk Management",
+    "region": "Global",
+    "owner": "Chief Risk Officer",
+    "content": "Vendors handling personal data, providing cloud or AI services, or processing data in regulated regions must complete due diligence and ongoing monitoring. Contract clauses must address data residency, GDPR, and compliance. Vendor risk ratings drive audit frequency. Subprocessors require approval and compliance verification."
+  },
+  {
+    "id": "POL-005",
+    "title": "GDPR and Personal Data Processing",
+    "region": "EMEA",
+    "owner": "Data Protection Officer",
+    "content": "Processing of personal data must comply with GDPR: lawful basis, purpose limitation, data minimization, and rights to access, rectification, and erasure. Data residency and cross-border transfer rules apply. Vendors acting as processors must meet contractual and compliance requirements. AI systems using personal data need impact assessments and explainability where relevant."
+  },
+  {
+    "id": "POL-006",
+    "title": "Model Explainability and Transparency",
+    "region": "Global",
+    "owner": "Chief Data & AI Officer",
+    "content": "AI and ML models used in decision-making affecting individuals or compliance must support explainability. Documentation of model logic, data sources, and limitations is required. Explainability requirements align with GDPR and regulatory expectations. Vendor-supplied models must provide equivalent transparency and governance documentation."
+  },
+  {
+    "id": "POL-007",
+    "title": "AI and Data Ethics Policy",
+    "region": "Global",
+    "owner": "Chief Data & AI Officer",
+    "content": "AI systems must be designed and operated in line with our ethics principles: fairness, transparency, and accountability. Data used for training must respect data residency and GDPR; bias and explainability must be assessed. Cloud and vendor deployments require compliance and security review. Governance includes ongoing monitoring and audit."
+  },
+  {
+    "id": "POL-008",
+    "title": "Cross-Border Data Transfer and Residency",
+    "region": "Global",
+    "owner": "Legal & Compliance",
+    "content": "Transfers of personal data across borders must comply with data residency rules and GDPR transfer mechanisms (e.g., SCCs). Cloud and vendor locations must be documented and approved. Compliance and legal teams assess vendor and subprocessor transfer arrangements. AI data pipelines are in scope for residency and transfer controls."
+  },
+  {
+    "id": "POL-009",
+    "title": "Cloud Provider Security and Compliance",
+    "region": "Americas",
+    "owner": "CISO",
+    "content": "Use of cloud providers is governed by security and compliance standards. Data residency and encryption requirements apply. Vendor risk assessments and contracts must address GDPR and regional compliance. AI workloads in the cloud follow the same security baseline and require model governance and explainability where applicable."
+  },
+  {
+    "id": "POL-010",
+    "title": "Vendor Due Diligence and Compliance",
+    "region": "Global",
+    "owner": "Procurement & Risk",
+    "content": "Vendors must demonstrate compliance with our security, data residency, and GDPR expectations. Due diligence covers cloud security, data handling, and subprocessors. High-risk vendors, including those providing AI or processing personal data, undergo enhanced review. Ongoing compliance and audit evidence are required."
+  },
+  {
+    "id": "POL-011",
+    "title": "Regulatory Compliance Program",
+    "region": "Global",
+    "owner": "Chief Compliance Officer",
+    "content": "The compliance program ensures adherence to applicable laws, including GDPR, data residency, and sector regulations. Cloud and vendor arrangements are assessed for compliance. AI and automated decision-making are subject to regulatory and explainability requirements. Policies are updated in line with regulatory change."
+  },
+  {
+    "id": "POL-012",
+    "title": "AI System Risk and Governance",
+    "region": "Global",
+    "owner": "Chief Data & AI Officer",
+    "content": "AI systems are classified by risk; higher-risk systems require formal governance, model explainability, and compliance review. Data used for training must meet data residency and GDPR standards. Deployment on cloud or via vendors follows security and vendor risk policies. Documentation and audit trails are maintained for compliance."
+  },
+  {
+    "id": "POL-013",
+    "title": "Data Protection and Privacy by Design",
+    "region": "EMEA",
+    "owner": "Data Protection Officer",
+    "content": "Privacy and data protection are embedded by design. This includes data minimization, purpose limitation, and alignment with GDPR and data residency. Cloud and vendor solutions must support these principles. AI systems processing personal data require impact assessments and, where relevant, explainability to support rights and compliance."
+  },
+  {
+    "id": "POL-014",
+    "title": "Cloud and Vendor Security Controls",
+    "region": "APAC",
+    "owner": "CISO",
+    "content": "Security controls for cloud and third-party vendors include access management, encryption, and monitoring. Data residency and compliance with local and GDPR-related requirements are verified. Vendor risk is assessed and reviewed periodically. AI and data processing services from vendors must meet the same control and governance standards."
+  },
+  {
+    "id": "POL-015",
+    "title": "High-Risk AI and Automated Decision-Making",
+    "region": "EMEA",
+    "owner": "Chief Data & AI Officer",
+    "content": "High-risk AI and automated decision-making are subject to strict governance: model explainability, human oversight, and compliance with GDPR and emerging AI regulations. Data residency and vendor risk apply to training data and deployment. Documentation and auditability are required for regulatory and internal compliance."
+  },
+  {
+    "id": "POL-016",
+    "title": "Subprocessor and Vendor Data Handling",
+    "region": "Global",
+    "owner": "Legal & Compliance",
+    "content": "Subprocessors and vendors handling our data must comply with data residency, GDPR, and our security standards. Contracts specify permitted processing, locations, and compliance obligations. Cloud and AI vendors are in scope. Compliance and vendor risk teams maintain a register and review subprocessor compliance."
+  },
+  {
+    "id": "POL-017",
+    "title": "Compliance Monitoring and Reporting",
+    "region": "Global",
+    "owner": "Chief Compliance Officer",
+    "content": "Compliance is monitored through controls, audits, and reporting. Coverage includes GDPR, data residency, cloud security, and vendor risk. AI governance and model explainability are reported where relevant. Findings are remediated and policies updated to support ongoing compliance."
+  },
+  {
+    "id": "POL-018",
+    "title": "AI Development and Deployment Lifecycle",
+    "region": "Global",
+    "owner": "Chief Data & AI Officer",
+    "content": "AI development and deployment follow a governed lifecycle: requirements, data sourcing (with data residency and GDPR in mind), model design with explainability considered, security and compliance review, and ongoing monitoring. Cloud and vendor deployments require approval. Vendor risk and compliance checks are part of the process."
+  },
+  {
+    "id": "POL-019",
+    "title": "Data Residency for Regulated Industries",
+    "region": "Americas",
+    "owner": "Legal & Compliance",
+    "content": "In regulated sectors, data residency requirements are enforced for personal and sensitive data. Cloud and vendor solutions must support residency and comply with GDPR and local rules. Compliance and vendor risk assessments verify location and controls. AI systems using such data must align with residency and explainability expectations."
+  },
+  {
+    "id": "POL-020",
+    "title": "Unified Policy on AI, Data, and Vendor Risk",
+    "region": "Global",
+    "owner": "Executive Leadership",
+    "content": "This policy consolidates expectations for AI governance, data residency, cloud security, vendor risk, and compliance including GDPR. All AI systems require appropriate governance and explainability. Data must be handled per residency and privacy rules. Cloud and vendor engagements are subject to risk and compliance review. Policies are maintained for consistent enterprise compliance."
+  }
+]
