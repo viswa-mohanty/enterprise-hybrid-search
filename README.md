@@ -82,33 +82,6 @@ Local transformer model trained for semantic similarity.
 	•	Evaluation of lexical vs semantic search
 	•	Explainable ranking behavior
 
-🏗 Executive Architecture – Hybrid Search System
-
-## Architecture Diagram
-
-```mermaid
-flowchart TD
-
-A[User Interface] --> B[UI Layer (app.py)]
-B --> C[Hybrid Search Engine]
-
-C --> D[Keyword Matching]
-C --> E[Semantic Embedding Search]
-
-E --> F[Chunk-Level Similarity]
-D --> G[Fusion Layer]
-F --> G
-
-G --> H[Ranked Results]
-H --> I[Chunk Preview + Chart]
-
-subgraph Startup Phase
-S1[Load Policies]
-S2[Chunk Content]
-S3[Compute Chunk Embeddings]
-S1 --> S2 --> S3
-end
-
 Why Hybrid Search?
 ------------------
 
