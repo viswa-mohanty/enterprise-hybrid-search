@@ -84,46 +84,30 @@ Local transformer model trained for semantic similarity.
 
 🏗 Executive Architecture – Hybrid Search System
 
-+----------------------+
-|        User          |
-|  (Search Interface)  |
-+----------+-----------+
-           |
-           v
-+----------------------+
-|   UI Layer (app.py)  |
-|  - Collect Query     |
-|  - Apply Filters     |
-|  - Control Weights   |
-+----------+-----------+
-           |
-           v
-+------------------------------+
-|   Hybrid Search Engine       |
-|                              |
-|  - Keyword Matching          |
-|  - Semantic Embedding Search |
-|  - Chunk-Level Similarity    |
-|  - Weighted Score Fusion     |
-+----------+-------------------+
-           |
-           v
-+----------------------+
-|   Ranked Results     |
-|  - Best Chunk Preview|
-|  - Score Breakdown   |
-|  - Visualization     |
-+----------------------+
+## Architecture Diagram
 
+```mermaid
+flowchart TD
 
-Startup (Runs Once)
+A[User Interface] --> B[UI Layer (app.py)]
+B --> C[Hybrid Search Engine]
 
-+----------------------------------+
-|  Load Policies                  |
-|  → Chunk Content                |
-|  → Compute Chunk Embeddings     |
-|  → Cache Tokens                 |
-+----------------------------------+
+C --> D[Keyword Matching]
+C --> E[Semantic Embedding Search]
+
+E --> F[Chunk-Level Similarity]
+D --> G[Fusion Layer]
+F --> G
+
+G --> H[Ranked Results]
+H --> I[Chunk Preview + Chart]
+
+subgraph Startup Phase
+S1[Load Policies]
+S2[Chunk Content]
+S3[Compute Chunk Embeddings]
+S1 --> S2 --> S3
+end
 
 Why Hybrid Search?
 ------------------
